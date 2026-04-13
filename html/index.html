@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세훈의 v3 놀이터</title>
+    <style>
+        body {
+            background-color: #ffeaa7; /* 따뜻한 노란색 */
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            border: 4px solid #fab1a0;
+            box-shadow: 10px 10px 0px #fab1a0;
+        }
+
+        .character {
+            font-size: 80px;
+            margin-bottom: 20px;
+            display: inline-block;
+            animation: bounce 0.6s infinite alternate;
+        }
+
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-20px); }
+        }
+
+        h1 {
+            color: #d63031;
+            font-size: 2rem;
+            margin: 10px 0;
+        }
+
+        p {
+            color: #2d3436;
+            font-weight: bold;
+        }
+
+        .version-tag {
+            background-color: #55efc4;
+            padding: 5px 15px;
+            border-radius: 50px;
+            color: #00b894;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="character">ฅ^•ﻌ•^ฅ</div>
+        <h1>Park Se-hun: v3 Update!</h1>
+        <p>부산에서 보낸 메시지가 뭄바이에 도착했습니다!</p>
+        <p>GitHub Actions 로봇이 열심히 일하는 중 🤖✨</p>
+        <div class="version-tag">현재 버전: v3.0.0 (Cute Edition)</div>
+    </div>
+</body>
+</html>
